@@ -31,7 +31,7 @@ const Header = ({ currentUser, hidden }) => (
         </div>
       ) : (
         <Link className="option" to="/auth">
-          sign in
+          Sign in
         </Link>
       )}
       <CartIcon />
